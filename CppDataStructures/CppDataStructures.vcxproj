@@ -46,6 +46,7 @@
     </ClCompile>
     <ClCompile Include="Recursion_StaticAndGlobalVariables.cpp" />
     <ClCompile Include="TailRecursion.cpp" />
+    <ClCompile Include="TreeRecursion.cpp" />
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />

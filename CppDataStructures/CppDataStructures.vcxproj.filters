@@ -8,6 +8,9 @@
     <ClCompile Include="Recursion_StaticAndGlobalVariables.cpp">
       <Filter>Recursion</Filter>
     </ClCompile>
+    <ClCompile Include="TailRecursion.cpp">
+      <Filter>Recursion</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="pch.h" />
@@ -16,5 +19,8 @@
     <Filter Include="Recursion">
       <UniqueIdentifier>{3ca38eea-d768-4ec7-ad85-3c87e74ef975}</UniqueIdentifier>
     </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="packages.config" />
   </ItemGroup>
 </Project>

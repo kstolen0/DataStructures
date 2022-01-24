@@ -36,19 +36,19 @@ int RecursionWithGlobalVariable(int n)
 	return 0;
 }
 
-TEST(RecursionTest, RecursionWithoutAndStaticOrGlobalVariables) {
+TEST(RecursionTests, RecursionWithoutAndStaticOrGlobalVariables) {
 	int result = RecursionWithNoStaticVariable(5);
 
 	EXPECT_EQ(result, 15);
 }
 
-TEST(RecursionTest, RecursionWithStaticVariable) {
+TEST(RecursionTests, RecursionWithStaticVariable) {
 	int result = RecursionWithStaticVariable(5);
 
 	EXPECT_EQ(result, 25);
 }
 
-TEST(RecursionTest, RecursionWithGlobalVariable) {
+TEST(RecursionTests, RecursionWithGlobalVariable) {
 	int result = RecursionWithGlobalVariable(5);	
 
 	EXPECT_EQ(result, 25);

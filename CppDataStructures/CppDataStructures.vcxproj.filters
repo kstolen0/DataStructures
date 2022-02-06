@@ -17,6 +17,9 @@
     <ClCompile Include="TreeRecursion.cpp">
       <Filter>Recursion</Filter>
     </ClCompile>
+    <ClCompile Include="IndirectRecursion.cpp">
+      <Filter>Recursion</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="pch.h" />

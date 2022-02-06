@@ -38,6 +38,7 @@
   <ItemGroup>
     <ClCompile Include="HeadRecursion.cpp" />
     <ClCompile Include="IndirectRecursion.cpp" />
+    <ClCompile Include="NestedRecursion.cpp" />
     <ClCompile Include="Recursion_CallingAndReturningOperations.cpp" />
     <ClCompile Include="pch.cpp">
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Create</PrecompiledHeader>

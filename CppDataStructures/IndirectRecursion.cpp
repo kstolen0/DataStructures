@@ -1,5 +1,4 @@
 #include "pch.h"
-#include <stack>
 
 // declare recursive functions prior to defining them
 // so we don't have a build failure
